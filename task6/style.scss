@@ -1,0 +1,105 @@
+$main-color:#7A29E7;
+$color:#ffff;
+
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+@mixin card-decoration(){
+    font-family: 'Gabarito', cursive;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    width: 280px;
+    box-shadow: 5px 10px 8px 10px #c8c6c6;
+    position:relative;
+    border-radius: 16px 16px 16px 16px;
+    margin-left: 30px;
+    img{
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 50%;
+        position:absolute; 
+        top:25px; 
+        left:25%;
+        border: 2px solid $main-color;
+    }
+   .card-image{
+    border-radius:4px solid $main-color ;
+   }
+    .card-items{
+        display: flex;
+        flex-direction: column;
+        background-color: $main-color;
+        color: $color;
+        align-items: flex-end;
+        padding:20px 20px 20px 0px;
+        border-radius: 16px 16px 0 0;
+        
+
+    }
+    .card-items{
+        i{
+            margin-bottom:12px;
+        }
+    }
+
+    h1{
+        margin:40px 0 0 0;
+        font-size: 23px;
+    }
+    p{
+        margin: 10px 0 10px 0;
+    }
+    button{
+        color: $color;
+        background-color: $main-color;
+        width: 100px;
+        padding: 10px;
+        font-weight: 600;
+        border-radius: 20px;
+        border: none;
+
+    }
+    .card-buttons{
+        margin: 5px 0 25px 0;
+    }
+    .card-info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        i{
+            color:$main-color;
+            margin:0px 0px 14px 0px;
+        }
+    }
+}
+.card1{
+    @include card-decoration();
+    i:nth-child(-n+4){
+        background-color: $main-color;
+        color: $color;
+    }
+
+}
+.card2{
+    @include card-decoration();
+    i:nth-child(-n+3){
+        background-color: $main-color;
+        color: $color;
+    }
+
+}
+.card3{
+    @include card-decoration();
+    i:nth-child(-n+4){
+        background-color: $main-color;
+        color: $color;
+    }
+
+}

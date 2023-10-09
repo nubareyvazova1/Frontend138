@@ -1,0 +1,19 @@
+h1{
+    color: rgb(19, 187, 19);
+}
+
+.comment{
+    background-color:rgb(246, 255, 0);
+    margin-top:100px;
+    padding:40px 0 40px 40px;
+
+}
+img{
+    width: 500px;
+    height:300px;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    color: rgb(53, 41, 118);
+}

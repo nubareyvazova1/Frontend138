@@ -1,0 +1,31 @@
+body{margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    background-color: #26ACF5;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+}
+i{
+    
+    font-size: 50px;
+    padding: 5px 0 5px 0;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    font-size: 14px;
+}
+button{
+    background-color: white;
+    color:#26ACF5;
+    border: none;
+    width: 100px;
+    padding: 10px;
+    font-weight: 800;
+    
+}

@@ -1,0 +1,28 @@
+div{
+    padding: 50px;
+    align-items: center;
+}
+img{
+    width: 170px;
+    object-fit: cover;
+}
+thead{
+    background-color:#808080;
+    height: 70px;
+}
+tbody{
+    
+    background-color:#A42C2B;
+    border:2px solid #808080;
+    color: #ffff;
+    
+}
+table, th, td {
+    border: 3px solid #808080;
+    border-collapse: collapse;
+    text-align: center;
+}
+table{
+    width: 600px;
+    height: 600px;
+}
