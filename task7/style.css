@@ -1,0 +1,115 @@
+body {
+  margin: 0px;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+}
+.main-container .container {
+  background-image: url("image/d3451114ab4e1d55ead624930bcff60c.jpg");
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-container .container h1 {
+  color: white;
+  font-size: 49px;
+}
+.main-container .container span {
+  color: #01A1DF;
+}
+.main-container .container p {
+  font-family: "Gabarito", sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Varela Round", sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+}
+.main-container .container p span {
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+}
+.main-container .navbar {
+  color: #727377;
+  position: relative;
+  background-color: #17181C;
+  display: grid;
+  grid-template-rows: 6fr 1fr;
+}
+.main-container .navbar .footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main-container .navbar .footer p {
+  font-family: "Gabarito", sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Varela Round", sans-serif;
+  margin: 4px;
+}
+.main-container .navbar .footer .footer-end {
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 10px;
+}
+.main-container .navbar .footer .ikons i {
+  margin-left: 4px;
+  margin: 10px 0 13px 0;
+}
+.main-container .navbar img {
+  width: 165px;
+  height: 165px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-container .navbar h1 {
+  color: white;
+  background-color: rgba(0, 163, 228, 0.8);
+  font-size: 17px;
+  padding: 7px 15.3px 7px 15.3px;
+  position: absolute;
+  top: 120px;
+}
+.main-container .navbar .nav {
+  text-decoration: none;
+}
+.main-container .navbar .nav div {
+  color: #727377;
+  border-bottom: 0.5px solid #727377;
+  padding: 12px;
+  font-size: 14px;
+}
+.main-container .navbar .nav div a {
+  font-weight: 600;
+  font-size: 10px;
+  text-decoration: none;
+  color: #727377;
+  font-family: "Gabarito", sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Varela Round", sans-serif;
+}
+.main-container .navbar .nav div a:hover {
+  color: white;
+}
+.main-container .navbar .nav div:hover {
+  color: white;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,111 @@
+@mixin font(){
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+body{
+    margin: 0px;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    .container{
+        background-image:url("image/d3451114ab4e1d55ead624930bcff60c.jpg");
+        background-size: cover;
+        height: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h1{
+            color: white;
+            font-size: 49px;
+        }
+        span{
+            color: #01A1DF;
+        }
+        p{ 
+            @include font();
+            color: white;
+            font-size: 20px;
+            font-weight:100;
+            span{
+                font-size: 24px;
+                font-weight: 800;
+                color: white;
+            }
+        }
+    }
+    .navbar{
+        color: #727377;
+        position:relative;
+        background-color: #17181C;
+        display: grid;
+        grid-template-rows:6fr 1fr;
+        .footer{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            p{  
+                @include font();
+                margin:4px;
+
+            }
+            .footer-end{
+                padding-bottom: 15px;
+                text-align: center;
+                font-size: 10px;
+            }
+            .ikons{
+                i{
+                    margin-left: 4px;
+                    margin:10px 0 13px 0;
+
+                }
+            }
+        }
+        img{
+            width: 165px;
+            height: 165px;
+            object-fit: cover;
+        }
+        h1{
+            color: white;
+            background-color:rgba(0,163,228, 0.8);
+            font-size: 17px;
+            padding:7px 15.3px 7px 15.3px;
+            position: absolute;
+            top: 120px;
+            
+        }
+        .nav{
+            text-decoration: none;
+
+            div{
+                a{
+                    font-weight: 600;
+                    font-size: 10px;
+                    text-decoration: none;
+                    color: #727377;
+                    &:hover{
+                        color: white;
+                    }
+                    @include font();
+                }
+                color: #727377;
+                &:hover{
+                    color: white;
+                }
+                border-bottom: 0.5px solid #727377;
+                padding: 12px;
+                font-size: 14px;
+            }
+
+        }
+    }
+}
