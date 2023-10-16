@@ -94,6 +94,9 @@ body {
   padding: 12px;
   font-size: 14px;
 }
+.main-container .navbar .nav div:hover {
+  color: white;
+}
 .main-container .navbar .nav div a {
   font-weight: 600;
   font-size: 10px;
@@ -108,8 +111,5 @@ body {
   font-family: "Varela Round", sans-serif;
 }
 .main-container .navbar .nav div a:hover {
-  color: white;
-}
-.main-container .navbar .nav div:hover {
   color: white;
 }/*# sourceMappingURL=style.css.map */

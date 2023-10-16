@@ -87,6 +87,11 @@ body{
             text-decoration: none;
 
             div{
+                color: #727377;
+                &:hover{
+                    
+                    color: white;
+                }
                 a{
                     font-weight: 600;
                     font-size: 10px;
@@ -96,10 +101,6 @@ body{
                         color: white;
                     }
                     @include font();
-                }
-                color: #727377;
-                &:hover{
-                    color: white;
                 }
                 border-bottom: 0.5px solid #727377;
                 padding: 12px;
