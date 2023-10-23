@@ -1,0 +1,130 @@
+body {
+  margin: 0px;
+  font-family: "Gabarito", sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Varela Round", sans-serif;
+}
+body header {
+  display: flex;
+}
+body header .nav-container {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 13.8px;
+}
+body header .nav-container .container-items {
+  margin-top: 25px;
+  align-items: center;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+body header .nav-container .container-items h1 {
+  letter-spacing: 12px;
+  margin: 0px;
+  margin-left: 25px;
+}
+body header .nav-container .container-items ul {
+  display: flex;
+  list-style: none;
+  margin: 0px;
+}
+body header .nav-container .container-items ul a {
+  text-decoration: none;
+  color: white;
+  margin-right: 28px;
+}
+body header .nav-container .nav-container-right {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}
+body header .nav-container .nav-container-right button {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin-right: 28px;
+}
+body header .nav-container .nav-container-right ul {
+  margin: 0px;
+  display: flex;
+  list-style: none;
+  margin-top: 0px;
+}
+body header .nav-container .nav-container-right ul a {
+  margin-right: 25px;
+  text-decoration: none;
+  color: black;
+}
+body header .image-container {
+  background-image: url("image/WhatsApp Image 2023-10-22 at 00.55.55.jpeg");
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  flex: 73%;
+  height: 656px;
+}
+body header .right-container {
+  font-size: 12px;
+  flex: 27%;
+  display: flex;
+  align-items: center;
+}
+body header .right-container .container-info {
+  padding-left: 25px;
+}
+body header .right-container .container-info h2 {
+  font-size: 14px;
+}
+body header .right-container .container-info h1 {
+  font-weight: 200;
+}
+body header .right-container .container-info p {
+  color: rgb(76, 76, 76);
+}
+body header .right-container .container-info button {
+  border: none;
+  background-color: white;
+  position: relative;
+  color: rgb(76, 76, 76);
+}
+body header .right-container .container-info hr {
+  width: 60px;
+  position: absolute;
+  top: 10px;
+}
+
+@media (max-width: 600px) {
+  .nav-container {
+    background-color: grey;
+    flex-direction: column;
+  }
+  .nav-container .container-items {
+    flex-direction: column;
+  }
+  .nav-container .container-items h1 {
+    color: black;
+  }
+  .nav-container .container-items ul {
+    flex-direction: column;
+  }
+  .nav-container .container-items ul a {
+    color: black;
+  }
+  .nav-container .nav-container-right {
+    flex-direction: column;
+  }
+  .nav-container .nav-container-right ul {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */

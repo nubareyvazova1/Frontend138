@@ -1,0 +1,141 @@
+$margin-size:0px;
+$flex:colum;
+body{
+    margin: 0px;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    header{
+        
+        display: flex;
+        .nav-container{
+            position:fixed;
+            display: flex;
+            justify-content:space-between;
+            width: 100%;
+            font-size: 13.8px;
+            
+            .container-items{
+                margin-top: 25px;
+                align-items: center;
+                color: white;
+                display: flex;
+                align-items: center;
+                h1{
+                    letter-spacing: 12px;
+                    margin: $margin-size;
+                    margin-left: 25px;
+                }
+                ul{
+                    display: flex;
+                    list-style: none;
+                    margin: $margin-size;
+                    a{
+                        text-decoration: none;
+                        color:white;
+                        margin-right: 28px;
+                    }
+                }
+            
+            }
+            .nav-container-right{
+                margin-top: 25px;
+                display: flex;
+                align-items: center;
+                button{
+                    background-color: black;
+                    color: white;
+                    border-radius: 50%;
+                    width: 30px;
+                    height: 30px;
+                    text-align: center;
+                    margin-right: 28px;
+                }
+                ul{
+                    margin: 0px;               
+                    display: flex;
+                    list-style: none;
+                    margin-top: $margin-size;
+                    a{
+                    margin-right: 25px;
+                    text-decoration: none;
+                    color: black;
+                    }
+                }
+            }
+        }
+        .image-container{
+            background-image: url("image/WhatsApp\ Image\ 2023-10-22\ at\ 00.55.55.jpeg");
+            object-fit: cover;
+            background-size: cover;
+            flex: 73%;
+            height: 656px;
+    
+        }
+        .right-container{
+            font-size: 12px;
+            flex: 27%;
+            display: flex;
+            align-items: center;
+            .container-info{
+                padding-left: 25px;
+                h2{
+                    font-size: 14px;
+                }
+                h1{
+                    font-weight: 200;
+                }
+                p{
+                    color: rgb(76, 76, 76);
+                }
+                button{
+                    border: none;
+                    background-color: white;
+                    position: relative;
+                    color: rgb(76, 76, 76);
+                }
+                hr{
+                    width:60px;
+                    position: absolute;
+                    top: 10px;
+                }
+            }
+        }
+
+    }
+
+    
+
+}    
+
+@media (max-width:600px){
+    .nav-container{
+        background-color: grey;
+        
+        flex-direction: column;
+        .container-items{
+            flex-direction: column;
+            h1{
+                color: black;
+            }
+            ul{
+                flex-direction: column;
+                a{
+                    color: black;
+                }
+            }
+        }
+        .nav-container-right{
+            flex-direction: column;
+            ul{
+                flex-direction: column;
+            }
+        }
+    }
+}  
+
