@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+}
+
+.card-1 {
+  padding: 18px;
+  background-color: white;
+  border-radius: 5px;
+}
+.card-1 h1 {
+  font-size: 26px;
+  margin: 40px 0 40px 0;
+}
+.card-1 .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-1 .card-top button {
+  background-color: #ffffdc;
+  color: #ffff0e;
+  border: none;
+  font-weight: 400;
+  border-radius: 5px;
+  padding: 1px 7px 1px 7px;
+  height: 30px;
+}
+.card-1 .card-top .card-ikon {
+  display: flex;
+  align-items: center;
+}
+.card-1 .card-top .card-ikon i {
+  width: 50px;
+  font-size: 35px;
+  background-color: #EEEEEE;
+  border-radius: 16px;
+  padding: 9px;
+}
+.card-1 .card-top .card-ikon .card-items {
+  margin-left: 5px;
+}
+.card-1 .card-top .card-ikon h2 {
+  font-size: 18px;
+  margin: 0;
+}
+.card-1 .card-top .card-ikon p {
+  margin: 0;
+}
+.card-1 .card-line {
+  margin: 23px 0 23px 0;
+  display: flex;
+  size: 200px;
+}
+.card-1 .card-line .left-side {
+  background-color: red;
+  width: 50%;
+  height: 8px;
+  border-radius: 6px 0px 0px 6px;
+}
+.card-1 .card-line .right-side {
+  border-radius: 0 6px 6px 0;
+  background-color: #EEEEEE;
+  width: 50%;
+  height: 8px;
+}
+.card-1 p {
+  font-size: 14px;
+  margin: 0px;
+  font-weight: 600;
+}
+.card-1 p span {
+  color: #aaa9a9;
+}
+.card-1 .col-md-4 {
+  width: 30px;
+}
+
+.card-2 {
+  padding: 18px;
+  background-color: white;
+  border-radius: 5px;
+  width: 400px;
+}
+.card-2 h1 {
+  font-size: 26px;
+  margin: 40px 0 40px 0;
+}
+.card-2 .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-2 .card-top button {
+  background-color: #ffffdc;
+  color: #ffff0e;
+  border: none;
+  font-weight: 400;
+  border-radius: 5px;
+  padding: 1px 7px 1px 7px;
+  height: 30px;
+}
+.card-2 .card-top .card-ikon {
+  display: flex;
+  align-items: center;
+}
+.card-2 .card-top .card-ikon i {
+  width: 50px;
+  font-size: 35px;
+  background-color: #EEEEEE;
+  border-radius: 16px;
+  padding: 9px;
+}
+.card-2 .card-top .card-ikon .card-items {
+  margin-left: 5px;
+}
+.card-2 .card-top .card-ikon h2 {
+  font-size: 18px;
+  margin: 0;
+}
+.card-2 .card-top .card-ikon p {
+  margin: 0;
+}
+.card-2 .card-line {
+  margin: 23px 0 23px 0;
+  display: flex;
+  size: 200px;
+}
+.card-2 .card-line .left-side {
+  background-color: red;
+  width: 50%;
+  height: 8px;
+  border-radius: 6px 0px 0px 6px;
+}
+.card-2 .card-line .right-side {
+  border-radius: 0 6px 6px 0;
+  background-color: #EEEEEE;
+  width: 50%;
+  height: 8px;
+}
+.card-2 p {
+  font-size: 14px;
+  margin: 0px;
+  font-weight: 600;
+}
+.card-2 p span {
+  color: #aaa9a9;
+}
+.card-2 .col-md-4 {
+  width: 30px;
+}
+
+.card-3 {
+  padding: 18px;
+  background-color: white;
+}
+.card-3 h1 {
+  font-size: 26px;
+  margin: 40px 0 40px 0;
+}
+.card-3 .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-3 .card-top button {
+  background-color: #ffffdc;
+  color: #ffff0e;
+  border: none;
+  font-weight: 400;
+  border-radius: 5px;
+  padding: 1px 7px 1px 7px;
+  height: 30px;
+}
+.card-3 .card-top .card-ikon {
+  display: flex;
+  align-items: center;
+}
+.card-3 .card-top .card-ikon i {
+  width: 50px;
+  font-size: 35px;
+  background-color: #EEEEEE;
+  border-radius: 16px;
+  padding: 9px;
+}
+.card-3 .card-top .card-ikon .card-items {
+  margin-left: 5px;
+}
+.card-3 .card-top .card-ikon h2 {
+  font-size: 18px;
+  margin: 0;
+}
+.card-3 .card-top .card-ikon p {
+  margin: 0;
+}
+.card-3 .card-line {
+  margin: 23px 0 23px 0;
+  display: flex;
+  size: 200px;
+}
+.card-3 .card-line .left-side {
+  background-color: red;
+  width: 50%;
+  height: 8px;
+  border-radius: 6px 0px 0px 6px;
+}
+.card-3 .card-line .right-side {
+  border-radius: 0 6px 6px 0;
+  background-color: #EEEEEE;
+  width: 50%;
+  height: 8px;
+}
+.card-3 p {
+  font-size: 14px;
+  margin: 0px;
+  font-weight: 600;
+}
+.card-3 p span {
+  color: #aaa9a9;
+}
+.card-3 .col-md-4 {
+  width: 30px;
+}
+
+.cards {
+  background-color: #EEEEEE;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

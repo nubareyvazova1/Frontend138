@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+}
+
+@mixin card-decoration(){
+    h1{
+        font-size: 26px;
+        margin: 40px 0 40px 0;
+    }
+    .card-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        button{
+            background-color: #ffffdc;
+            color: #ffff0e;
+            border: none;
+            font-weight: 400;
+            border-radius: 5px;
+            padding: 1px 7px 1px 7px;
+            height: 30px;
+        }
+        .card-ikon{
+            display: flex;
+            align-items: center;
+            i{
+                width: 50px;
+                font-size: 35px;
+                background-color: #EEEEEE;
+                border-radius: 16px;
+                padding: 9px;
+                
+            }
+            .card-items{
+                margin-left:5px ;
+                
+            }
+            h2{
+                font-size: 18px;
+                margin: 0;
+            }
+            p{
+                margin: 0;
+            }
+        }
+        
+    }
+    .card-line{
+        margin: 23px 0 23px 0;
+        display: flex;
+        size: 200px;
+        .left-side{
+            background-color: red;
+            width: 50%;
+            height: 8px;
+            border-radius: 6px 0px 0px 6px;
+            
+        }
+        .right-side{
+            border-radius: 0 6px 6px 0;
+            background-color: #EEEEEE;
+            width: 50%;
+            height: 8px
+        }
+
+    }
+    p{
+        font-size: 14px;
+        margin: 0px;
+        font-weight: 600;
+        span{
+            color:#aaa9a9; 
+        }
+    }
+}
+.card-1 {
+    padding: 18px;
+    background-color:white;
+    border-radius: 5px;
+    @include card-decoration();
+}
+    
+.card-2{
+    padding: 18px;
+    background-color:white;
+    border-radius: 5px;
+    width: 400px;
+    // margin: 0 1.7% 0 0;
+    // width:30%;
+    @include card-decoration();
+}
+.card-3{
+    padding: 18px;
+    background-color:white;
+    border-radius: 5px;
+    // width:30%;
+    @include card-decoration();
+}
+.cards{
+    background-color: #EEEEEE;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    
+}
+.col-md-4 {
+    margin-bottom: 20px;          
+    margin-right: 20px;
+    width: 30%;
+}
